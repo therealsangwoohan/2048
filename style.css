@@ -1,0 +1,25 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+
+.board .square {
+    width: 98px;
+    height: 98px;
+    background-color: yellow;
+    border: 1px solid black;
+    color: red;
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gg {
+    width: 400px;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+}
